@@ -1,0 +1,66 @@
+.skills {
+    margin-top: 20px; /* Adjust the value to increase or decrease space */
+}
+body {
+    font-family: "Book Antiqua", serif; /* Set the font for the entire page */
+    line-height: 1.6; /* Increase line spacing for better readability */
+    margin: 20px; /* Add some margin around the body */
+    background-color: #ffff; /* Background color */
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border for the table */
+    padding: 8px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for header */
+}
+
+img {
+    border-radius: 50%; /* For round profile picture */
+}
+
+strong {
+    color: #93b6d2; /* Change the color for strong text to match the border */
+    font-size: 1.2em; /* Slightly larger font size for emphasis */
+}
+
+p {
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+span {
+    margin-right: 5px; /* Space between span elements */
+}
+img {
+    border-radius: 50%; /* For round profile picture */
+    border: 5px solid #93b6d2; /* Add a thick border around the image */
+    padding: 5px; /* Optional: Add some padding to create space between the image and the border */
+}
+
+
+.contact-button {
+    display: inline-block; /* Make the button inline */
+    padding: 10px 20px; /* Add padding for better appearance */
+    background-color: #52576d; /* Set background color */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly round corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.contact-button:hover {
+    background-color: #434659; /* Darker shade on hover */
+}
